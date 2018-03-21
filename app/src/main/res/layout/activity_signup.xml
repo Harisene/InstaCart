@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.kalani.instacart.signup">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingTop="20dp"
+        android:background="@drawable/z">
+
+        <EditText
+            android:layout_width="310dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="-1dp"
+            android:background="@drawable/textstyle"
+            android:hint="@string/first_name"
+            android:textColor="@android:color/black"
+            android:textColorHint="#000000"
+            android:textSize="18sp" />
+
+        <EditText
+            android:layout_width="310dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/textstyle"
+            android:hint="@string/last_name"
+            android:textColor="@android:color/black"
+            android:textColorHint="#000000"
+            android:textSize="18sp" />
+
+        <EditText
+            android:layout_width="310dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/textstyle"
+            android:hint="@string/email"
+            android:inputType="textEmailAddress"
+            android:textColor="@android:color/black"
+            android:textColorHint="#000000"
+            android:textSize="18sp" />
+
+        <EditText
+            android:layout_width="307dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/textstyle"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:textColorHint="#000000"
+            android:textSize="18sp" />
+
+        <EditText
+            android:layout_width="310dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/textstyle"
+            android:hint="@string/confirm"
+            android:inputType="textPassword"
+            android:textColor="@android:color/black"
+            android:textColorHint="#000000"
+            android:textSize="18sp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/buttonclicked"
+            android:text="@string/key1"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
